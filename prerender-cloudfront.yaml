@@ -139,6 +139,11 @@ Resources:
         CustomErrorResponses:
           - ErrorCode: 404
             ResponseCode: 404
+        # If you wish to respond with 200 even if the page is not existing
+        # CustomErrorResponses:
+        #   - ErrorCode: 404
+        #     ResponseCode: 200
+        #     ResponsePagePath: /index.html
         HttpVersion: http2
         Origins:
           - CustomOriginConfig:
