@@ -138,8 +138,7 @@ Resources:
         Enabled: true
         CustomErrorResponses:
           - ErrorCode: 404
-            ResponseCode: 200
-            ResponsePagePath: /index.html
+            ResponseCode: 404
         HttpVersion: http2
         Origins:
           - CustomOriginConfig:
